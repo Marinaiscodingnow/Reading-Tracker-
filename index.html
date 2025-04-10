@@ -42,76 +42,115 @@
         </center>
 
 
-          <h2 style="padding: 20px;" class="title1">Current Books Read This Month</h2>
-          <div style="margin: 40px;text-align: center;  font-family: 'Yuji Syuku'">
-            Books read this month:<button @click = "total_pages++" id="celebrateBtn" class="celebrate-btn"> </i> {{total_pages}}</button>
+        <div class="row" style="padding: 5%;">
+          <div class="col">
+            <div class="box">
+            <h4 class="title1">To-do</h6>
+              <div class="checkbox">
+                <input id="hw" type="checkbox" name="hw" >
+                <label for="hw">Home Work</label>
+                <br>
+                <input id="tea" type="checkbox" name="tea" >
+                <label for="tea">Drink 1 cup of Tea</label>
+                <br>
+                <input id="eat" type="checkbox" name="eat" >
+                <label for="eat">Eat Something</label>
+                <br>
+                <input id="book" type="checkbox" name="book" >
+                <label for="book">Read for 20min</label>
+                <br>
+                <input id="study" type="checkbox" name="dtudy" >
+                <label for="study">Study for 30min</label>
+                <br>
+                <input id=":D" type="checkbox" name=":D" >
+                <label for=":D">Laugh </label>
+                <br>
+                </div>
+            </div>
           </div>
 
-          <h2 style="padding: 20px;" class="title1">Reading Goals</h2>
-          <div class="row">
-            <div class="col" style="font-family: 'Yuji Syuku'; margin: 40px;">
 
-            </div>
-            <div class="col" style="font-family: 'Yuji Syuku'; margin: 10px;">
+          <div class="col">
+            <div class="box">
+            <h4 class="title1">Current Books Read</h2>
+          <div style="text-align: center;  font-family: 'Yuji Syuku';">
+            Books read this month:<br><button @click = "total_pages++" id="celebrateBtn" class="celebrate-btn"> </i> {{total_pages}}</button>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="col">
+            <div class="box">
+            <h4 class="title1">Reading Goals</h2>
+          <div style="text-align: center; font-family: 'Yuji Syuku'">
+        
                 <img>
 
-                <h5>-Read 10 Books</h5>
-                <h5>-Finish 2 Series</h5>
-                <h5>-Create themed bookmarks</h5>
+                <p>-Read 10 Books</p>
+                <p>-Finish 2 Series</p>
+                <p>-Create themed bookmarks</p>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        
+
+  
+
+
+        <div class="row">
+          <div class="col">
+            <h2 style="padding: 20px;" class="title1">Currently Reading <span class="fa fa-book"></span></h2>
+
+            <div class="row">
+              <div class="col">
+                <br>
+                <center>
+                <img src="img/inheritance.jpg" style="height: 300px; ">
+                </center>
+              </div>
+              <div class="col">
+            
+                  <br>
+            
+                  <h4 style="font-family: 'Fredericka The Great'"> {{title}}</h4>
+                  <p style="font-family: 'Fredericka The Great'"> {{author}}</p>
+            
+            
+            <br>
+            <br>
+            <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+              <p>Value: <span id="demo"></span></p>
+            </div>
+              </div>
+
             </div>
           </div>
+          <div class="col">
+            <h2 style="padding: 20px;" class="title1">What to Read Next</h2>
 
-          <h2 style="padding: 20px;" class="title1">What to Read Next</h2>
 
-
-          <div class="row">
-  <div class="col">
-    <br>
-    <center>
-    <img src="img/inheritance.jpg" style="height: 300px; ">
-    </center>
-  </div>
-  <div class="col">
-
+            <div class="row">
+    <div class="col">
       <br>
-      <br>
-      <br>
-
-      <h2 style="font-family: 'Fredericka The Great'"> title</h2>
-      <h5 style="font-family: 'Fredericka The Great'"> author</h2>
-
-  </div>
-  </div>
+      <center>
+      <img src="img/inheritance.jpg" style="height: 300px; ">
+      </center>
+      </div>
+      <div class="col">
+        <h4 style="font-family: 'Fredericka The Great'"> title</h4>
+        <p style="font-family: 'Fredericka The Great'"> author</p>
+  
+    </div>
+    </div>
+          </div>
+        </div>
 <br>
 <br>
-          <h2 style="padding: 20px;" class="title1">Currently Reading <span class="fa fa-book"></span></h2>
-
-<div class="row">
-  <div class="col">
-    <br>
-    <center>
-    <img src="img/inheritance.jpg" style="height: 300px; ">
-    </center>
-  </div>
-  <div class="col">
-
-      <br>
-      <br>
-      <br>
-
-      <h2 style="font-family: 'Fredericka The Great'"> {{title}}</h2>
-      <h5 style="font-family: 'Fredericka The Great'"> {{author}}</h2>
-
-
-<br>
-<br>
-      <h3 style="font-family: 'Fredericka The Great'; padding-left: 15px;">{{pages}} - {{book_pages}}</h3>
-
-          <button @click = "pages++" class="buttons" > <i class="fa fa-caret-up"></i> Pages</button>
-          <button @click = "pages--" class = "buttons"><i class="fa fa-caret-down"></i> Pages</button>
-  </div>
-  </div>
-</div>
+ 
 <br>
 <br>
 <br>  

@@ -1,3 +1,90 @@
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('contrasticon.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('contrasticon.png');
+  cursor: pointer;
+}
+
+
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 13px;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+
+	width: 16px;
+	height: 16px;
+
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: rgb(179, 139, 107);
+}
+
+.checkbox{
+position:relative;
+  left:10%;
+  }
+.checkbox label {
+	margin-bottom: 10px;
+  
+}
+.checkbox label:before {
+    border-radius: 3px;
+}
+
+input[type=checkbox]:checked + label:before {
+	content: "\2713"; 
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+	font-size: 15px;
+	color: white;
+  background:rgb(122, 70, 27);
+	text-align: center;
+    line-height: 15px;
+}
+
+
 
 .celebrate-btn {
   border-radius: 30%;
@@ -99,3 +186,11 @@
   cursor: pointer;
 }
 
+.box{
+  border-color: rgb(131, 84, 53);
+  border-width: 3px;
+  border-radius: 20%;
+  border-style: dotted;
+  padding: 20px;
+  margin: 5%;
+}
