@@ -1,0 +1,38 @@
+[
+    {
+          "title": "The Wishing Spell",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS(ws).jpg"],
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "price": "$8.90",
+          "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+    },
+    {
+      "title": "The Wishing Spell",
+      "series": "The Land Of Stories",
+      "cover": ["img/LoS(ws).jpg"],
+      "author": "Chris Colford",
+      "genre": "Fantasy",
+      "price": "$8.90",
+      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      },
+      {
+      "title": "The Wishing Spell",
+      "series": "The Land Of Stories",
+      "cover": ["img/LoS(ws).jpg"],
+      "author": "Chris Colford",
+      "genre": "Fantasy",
+      "price": "$8.90",
+      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      },
+      {
+      "title": "The Wishing Spell",
+      "series": "The Land Of Stories",
+      "cover": ["img/LoS(ws).jpg"],
+      "author": "Chris Colford",
+      "genre": "Fantasy",
+      "price": "$8.90",
+      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      }
+]

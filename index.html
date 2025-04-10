@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title>Reading Track</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7988191773.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+    <body style="background-color: rgb(252, 245, 229); color: rgb(105, 53, 18);">
+
+        <nav style="background-color: rgb(219, 201, 177);font-family: 'Fredericka The Great'" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" style="padding-left: 8px;">Reading Tracker</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Library.html">My Library</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="List.html">Shopping List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Mood.html">Reading Time</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<br>
+<br>
+<div id="app">
+          <center>
+        <h1 class="title1" style="padding: 20px;">Book Tracker</h1>
+        <p>An Updated version of the Study Website, used to track my books I currently have, and the ones I want to have.<p>
+        </center>
+
+
+          <h2 style="padding: 20px;" class="title1">Current Books Read This Month</h2>
+          <div style="margin: 40px;text-align: center;  font-family: 'Yuji Syuku'">
+            Books read this month:<button @click = "total_pages++" id="celebrateBtn" class="celebrate-btn"> </i> {{total_pages}}</button>
+          </div>
+
+          <h2 style="padding: 20px;" class="title1">Reading Goals</h2>
+          <div class="row">
+            <div class="col" style="font-family: 'Yuji Syuku'; margin: 40px;">
+
+            </div>
+            <div class="col" style="font-family: 'Yuji Syuku'; margin: 10px;">
+                <img>
+
+                <h5>-Read 10 Books</h5>
+                <h5>-Finish 2 Series</h5>
+                <h5>-Create themed bookmarks</h5>
+            </div>
+          </div>
+
+          <h2 style="padding: 20px;" class="title1">What to Read Next</h2>
+
+
+          <div class="row">
+  <div class="col">
+    <br>
+    <center>
+    <img src="img/inheritance.jpg" style="height: 300px; ">
+    </center>
+  </div>
+  <div class="col">
+
+      <br>
+      <br>
+      <br>
+
+      <h2 style="font-family: 'Fredericka The Great'"> title</h2>
+      <h5 style="font-family: 'Fredericka The Great'"> author</h2>
+
+  </div>
+  </div>
+<br>
+<br>
+          <h2 style="padding: 20px;" class="title1">Currently Reading <span class="fa fa-book"></span></h2>
+
+<div class="row">
+  <div class="col">
+    <br>
+    <center>
+    <img src="img/inheritance.jpg" style="height: 300px; ">
+    </center>
+  </div>
+  <div class="col">
+
+      <br>
+      <br>
+      <br>
+
+      <h2 style="font-family: 'Fredericka The Great'"> {{title}}</h2>
+      <h5 style="font-family: 'Fredericka The Great'"> {{author}}</h2>
+
+
+<br>
+<br>
+      <h3 style="font-family: 'Fredericka The Great'; padding-left: 15px;">{{pages}} - {{book_pages}}</h3>
+
+          <button @click = "pages++" class="buttons" > <i class="fa fa-caret-up"></i> Pages</button>
+          <button @click = "pages--" class = "buttons"><i class="fa fa-caret-down"></i> Pages</button>
+  </div>
+  </div>
+</div>
+<br>
+<br>
+<br>  
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bund-le.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+    </html>
+

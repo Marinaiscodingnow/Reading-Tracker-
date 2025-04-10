@@ -1,0 +1,138 @@
+[
+      {
+            "title": "Six of Crows",
+              "series": "GrishaVerse",
+              "cover": ["img/6crows.jpg"],
+              "pages": 496,
+              "author": "Leigh Bardugo",
+              "genre": "Fantasy",
+              "read": "Finished"
+        },
+        {
+          "title": "Crooked Kingdom",
+            "series": "GrishaVerse",
+            "cover": ["img/6crows(2).jpg"],
+            "pages": 561,
+            "author": "Leigh Bardugo",
+            "genre": "Fantasy",
+            "read": "Finished"
+        }, 
+      {
+          "title": "The Wishing Spell",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS(ws).jpg"],
+          "pages": 496,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+          "title": "The Enchantress Returns",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS2.jpg"],
+          "pages": 528,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+        "title": "A Grimm Warning",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS3.jpg"],
+          "pages": 480,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+         "title": "Beyond The Kingdoms",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS4.jpg"],
+          "pages": 422,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+        "title": "An Author's Odyssey",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS5.jpg"],
+          "pages": 496,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+        "title": "Worlds Collide",
+          "series": "The Land Of Stories",
+          "cover": ["img/LoS6.jpg"],
+          "pages": 434,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+        "title": "A Tale of Magic",
+          "series": "A Tale of Magic",
+          "cover": ["img/aToM.jpg"],
+          "pages": 484,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+        "title": "A Tale of Witchcraft",
+          "series": "A Tale of Magic",
+          "cover": ["img/aToM2.jpg"],
+          "pages": 432,
+          "author": "Chris Colford",
+          "genre": "Fantasy",
+          "read": "Finished"
+    },
+    {
+      "title": "A Tale of Sorcery",
+        "series": "A Tale of Magic",
+        "cover": ["img/aToM3.jpg"],
+        "pages": 481,
+        "author": "Chris Colford",
+        "genre": "Fantasy",
+        "read": "Finished"
+  },
+  {
+    "title": "The Naturals",
+      "series": "The Naturals",
+      "cover": ["img/naturals.jpg"],
+      "pages": 336,
+      "author": "Jennifer Lynn Barnes",
+      "genre": "Thriller",
+      "read": "Finished"
+},
+{
+  "title": "Killer Instinct",
+    "series": "The Naturals",
+    "cover": ["img/naturals(2).jpg"],
+    "pages": 372,
+    "author": "Jennifer Lynn Barned",
+    "genre": "Thriller",
+    "read": "Finished"
+},
+
+{
+  "title": "All In",
+    "series": "The Naturals",
+    "cover": ["img/naturals(3).jpg"],
+    "pages": 372,
+    "author": "Jennifer Lynn Barned",
+    "genre": "Thriller",
+    "read": "Finished"
+}    ,
+{
+  "title": "Bad Blood",
+    "series": "The Naturals",
+    "cover": ["img/naturals(4).jpg"],
+    "pages": 372,
+    "author": "Jennifer Lynn Barned",
+    "genre": "Thriller",
+    "read": "Finished"
+}            
+]

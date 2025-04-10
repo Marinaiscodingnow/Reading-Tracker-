@@ -1,0 +1,101 @@
+
+.celebrate-btn {
+  border-radius: 30%;
+  margin: 10px; padding: 3 13 3 10; 
+  background-color: rgb(252, 245, 229); 
+  border-color: rgb(214, 179, 147);
+  color: rgb(105, 53, 18);
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.celebrate-btn:hover {
+  background-color: rgb(252, 245, 229);
+  color: rgb(105, 53, 18);
+}
+
+.celebrate-btn:active {
+  transform: scale(0.98);
+}
+
+
+
+.title1 { 
+  text-align: center;
+  font-family: 'Fredericka The Great';
+}
+
+
+.buttons{
+  border-radius: 30%;
+  margin: 10px; padding: 3 13 3 10; 
+  background-color: rgb(252, 245, 229); 
+  border-color: rgb(214, 179, 147);
+  color: rgb(105, 53, 18);
+}
+
+
+.controlbox{
+  background-color: rgb(219, 201, 177);
+  padding: 20px;
+  border-radius: 20%;
+  margin: 10px;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: rgba(156, 120, 90, 0.637); 
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(img/inheritance.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  cursor: pointer;
+}
+
