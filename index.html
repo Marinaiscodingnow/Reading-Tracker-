@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale =1.0">
     <title>Reading Track</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7988191773.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Yuji+Syuku&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/vue@3.0.2"></script>
-    <link href="style.css" rel="stylesheet">
 </head>
     <body style="background-color: rgb(252, 245, 229); color: rgb(105, 53, 18);">
 
@@ -46,12 +46,12 @@
           <div class="col">
             <div class="box">
             <h4 class="title1">To-do</h6>
-              <div class="checkbox">
+              <div class="checkbox" style="font-family: 'Yuji Syuku';">
                 <input id="hw" type="checkbox" name="hw" >
                 <label for="hw">Home Work</label>
                 <br>
                 <input id="tea" type="checkbox" name="tea" >
-                <label for="tea">Drink 1 cup of Tea</label>
+                <label for="tea">Drink Tea</label>
                 <br>
                 <input id="eat" type="checkbox" name="eat" >
                 <label for="eat">Eat Something</label>
@@ -75,6 +75,9 @@
             <h4 class="title1">Current Books Read</h2>
           <div style="text-align: center;  font-family: 'Yuji Syuku';">
             Books read this month:<br><button @click = "total_pages++" id="celebrateBtn" class="celebrate-btn"> </i> {{total_pages}}</button>
+          <center>
+            <img src="img/books.png" style="width: 170px;">
+          </center>
           </div>
           </div>
           </div>
@@ -100,50 +103,50 @@
   
 
 
-        <div class="row">
+        <div class="row" style="margin-left: 5%; margin-right: 5%;">
           <div class="col">
-            <h2 style="padding: 20px;" class="title1">Currently Reading <span class="fa fa-book"></span></h2>
+            <div class="box">
+            <h2 style="padding: 10px;" class="title1">Currently Reading <span class="fa fa-book"></span></h2>
 
             <div class="row">
               <div class="col">
-                <br>
                 <center>
                 <img src="img/inheritance.jpg" style="height: 300px; ">
                 </center>
+                <br>
               </div>
               <div class="col">
-            
-                  <br>
             
                   <h4 style="font-family: 'Fredericka The Great'"> {{title}}</h4>
                   <p style="font-family: 'Fredericka The Great'"> {{author}}</p>
             
-            
-            <br>
-            <br>
             <div class="slidecontainer">
-              <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-              <p>Value: <span id="demo"></span></p>
+              <input class="slider" type="range" min="1" max="100" id="myRange">
+              <br>
+              <p style="font-family:'Yuji Syuku' ; padding-top: 5%;">Percent Read: <span id="demo"></span>%</p>
             </div>
               </div>
-
+            </div>
             </div>
           </div>
           <div class="col">
-            <h2 style="padding: 20px;" class="title1">What to Read Next</h2>
+            <div class="box">
+            <h2 style="padding: 10px;" class="title1">What to Read Next</h2>
 
 
             <div class="row">
     <div class="col">
-      <br>
       <center>
       <img src="img/inheritance.jpg" style="height: 300px; ">
+      <br>
+      <br>
       </center>
       </div>
       <div class="col">
         <h4 style="font-family: 'Fredericka The Great'"> title</h4>
         <p style="font-family: 'Fredericka The Great'"> author</p>
   
+    </div>
     </div>
     </div>
           </div>
