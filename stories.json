@@ -1,38 +1,38 @@
 [
     {
-          "title": "The Wishing Spell",
-          "series": "The Land Of Stories",
-          "cover": ["img/LoS(ws).jpg"],
-          "author": "Chris Colford",
+          "title": "The Atlas Paradox",
+          "series": "The Atlas",
+          "cover": ["img/atlas(2).jpg"],
+          "author": "Olivie Blake",
           "genre": "Fantasy",
-          "price": "$8.90",
+          "price": "$12.48",
           "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
     },
     {
-      "title": "The Wishing Spell",
-      "series": "The Land Of Stories",
-      "cover": ["img/LoS(ws).jpg"],
-      "author": "Chris Colford",
+      "title": "The Atlas Complex",
+      "series": "The Atlas",
+      "cover": ["img/atlas(3).jpg"],
+      "author": "Olivie Blake",
       "genre": "Fantasy",
-      "price": "$8.90",
-      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      "price": "$14.84",
+      "link":"https://a.co/d/dyxwBPO"
       },
       {
-      "title": "The Wishing Spell",
-      "series": "The Land Of Stories",
-      "cover": ["img/LoS(ws).jpg"],
-      "author": "Chris Colford",
-      "genre": "Fantasy",
-      "price": "$8.90",
-      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      "title": "A Study in Drowning",
+      "series": "A Study in...",
+      "cover": ["img/aSiD.jpg"],
+      "author": "Ava Reid",
+      "genre": "Young Adult",
+      "price": "$16.33",
+      "link":"https://a.co/d/52eWspZ"
       },
       {
-      "title": "The Wishing Spell",
-      "series": "The Land Of Stories",
-      "cover": ["img/LoS(ws).jpg"],
-      "author": "Chris Colford",
-      "genre": "Fantasy",
-      "price": "$8.90",
-      "link":"https://www.amazon.com/Atlas-Paradox-2/dp/1250855101/ref=tmm_pap_swatch_0"
+      "title": "Song of Achilles",
+      "series": " ",
+      "cover": ["img/SoA.jpg"],
+      "author": "Madeline Miller",
+      "genre": "Mythology",
+      "price": "$10.77",
+      "link":"https://a.co/d/1hb1Mno"
       }
 ]

@@ -17,6 +17,15 @@
             "genre": "Fantasy",
             "read": "Finished"
         },
+        {
+          "title": "Fox Plush!",
+            "series": " ",
+            "cover": ["img/fox.png"],
+            "pages": "None",
+            "author": "Me and Adobe",
+            "genre": "Very Cute",
+            "read": " "
+        },
       {
           "title": "The Wishing Spell",
           "series": "The Land Of Stories",
@@ -99,6 +108,15 @@
         "read": "Finished"
   },
   {
+    "title": "Plant!",
+      "series": " ",
+      "cover": ["img/plant.png"],
+      "pages": "None",
+      "author": "Me and Adobe",
+      "genre": "You cant kill this one...",
+      "read": " "
+  },
+  {
     "title": "The Naturals",
       "series": "The Naturals",
       "cover": ["img/naturals.jpg"],
@@ -134,5 +152,14 @@
     "author": "Jennifer Lynn Barned",
     "genre": "Thriller",
     "read": "Finished"
+},
+{
+  "title": "Tree in a Bottle",
+    "series": " ",
+    "cover": ["img/tree.png"],
+    "pages": "None",
+    "author": "Me and Adobe",
+    "genre": "Want to swing?",
+    "read": " "
 }            
 ]

@@ -20,19 +20,7 @@ const app = Vue.createApp({
   },
     data() {
         return {
-            stories: [],
-
-            showBooks: true,
-            title: 'The Inheritance Games',
-            author: 'Jennier Lynn Barnes',
-            pages: 45,
-            book_pages: 100,
-            total_pages:0
-        }
-    },
-    methods: {
-        toggleShowBooks(){
-            this.showBooks = !this.showBooks
+            stories: []
         }
     }
 })
