@@ -1,8 +1,4 @@
-
-
-
-
-
+//1
 function on() {
     document.getElementById("overlay").style.display = "block";
   }
@@ -10,9 +6,32 @@ function on() {
   function off() {
     document.getElementById("overlay").style.display = "none";
   }
+//2
+  function on2() {
+    document.getElementById("second").style.display = "block";
+  }
+  
+  function off2() {
+    document.getElementById("second").style.display = "none";
+  }
+  
+  //3
+function on3() {
+  document.getElementById("third").style.display = "block";
+}
 
+function off3() {
+  document.getElementById("third").style.display = "none";
+}
 
+//4
+function on4() {
+  document.getElementById("fourth").style.display = "block";
+}
 
+function off4() {
+  document.getElementById("fourth").style.display = "none";
+}
 
 
 
@@ -28,10 +47,9 @@ const app = Vue.createApp({
             books: [],
 
             showBooks: true,
-            title: 'The Inheritance Games',
-            author: 'Jennier Lynn Barnes',
+            title: 'House of Earth and Blood',
+            author: 'Sarah J Mass',
             pages: 45,
-            book_pages: 100,
             total_pages:0
         }
     },
